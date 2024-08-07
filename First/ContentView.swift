@@ -7,20 +7,60 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View{
     
-    let emojis = ["👻","🤡","💀","🎃"]
-    
+    let emojis = ["👻","🤡","💀","🎃","👻","🤡","💀","🎃","👻","🤡","💀","🎃"]
+    @State var cardCount: Int = 4
+
     var body: some View {
-        HStack{
-            ForEach(emojis.indices,id: \.self) { index in
+        VStack{
+            ScrollView{
+                cards
+            }
+            Spacer()
+            cardsCountAdjustment
+        }
+        .padding()
+    }
+    
+    var cards: some View{
+        LazyVGrid(columns: [GridItem(.adaptive(minimum: 120))]){
+            ForEach(0..<cardCount,id: \.self) { index in
                 CardView(content:emojis[index])
+                    .aspectRatio(2/3, contentMode: .fit)
+            }
+        }
+        .foregroundColor(.cyan)
+    }
+    
+    var cardsCountAdjustment: some View{
+        HStack{
+            carAdder
+            cardRemover
+        }
+    }
+    
+    var cardRemover: some View{
+        Button("Remove Card") {
+            if cardCount > 1{
+                cardCount -= 1
             }
         }
         .padding()
-        .foregroundColor(.blue)
-        .frame(height: 130)
     }
+    
+    var carAdder: some View{
+        Button {
+            if cardCount < emojis.count {
+                cardCount += 1
+            }
+        } label: {
+            Image(systemName: "rectangle.stack.badge.plus.fill")
+        }
+        .padding()
+        .font(.largeTitle)
+    }
+    
 }
 
 struct CardView: View{
