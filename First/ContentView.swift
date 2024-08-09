@@ -79,6 +79,7 @@ struct CardView: View{
                 base
             }
         }
+        .frame(height: 200)
         .onTapGesture {
             print("tapped")
             isFaceUp.toggle()
