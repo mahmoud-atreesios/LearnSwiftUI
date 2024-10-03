@@ -13,6 +13,7 @@
 		1CE187FF2CADC674005FE9D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE187FE2CADC674005FE9D8 /* Preview Assets.xcassets */; };
 		1CE188062CADC80A005FE9D8 /* TextBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE188052CADC80A005FE9D8 /* TextBootCamp.swift */; };
 		1CE188082CAE283A005FE9D8 /* ShapesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE188072CAE283A005FE9D8 /* ShapesBootCamp.swift */; };
+		1CEA05B32CAE2E22001A5256 /* ColorsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05B22CAE2E22001A5256 /* ColorsBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1CE187FE2CADC674005FE9D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1CE188052CADC80A005FE9D8 /* TextBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootCamp.swift; sourceTree = "<group>"; };
 		1CE188072CAE283A005FE9D8 /* ShapesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootCamp.swift; sourceTree = "<group>"; };
+		1CEA05B22CAE2E22001A5256 /* ColorsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				1CE187FD2CADC674005FE9D8 /* Preview Content */,
 				1CE188052CADC80A005FE9D8 /* TextBootCamp.swift */,
 				1CE188072CAE283A005FE9D8 /* ShapesBootCamp.swift */,
+				1CEA05B22CAE2E22001A5256 /* ColorsBootCamp.swift */,
 			);
 			path = "Learning-SwiftUI";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CEA05B32CAE2E22001A5256 /* ColorsBootCamp.swift in Sources */,
 				1CE188082CAE283A005FE9D8 /* ShapesBootCamp.swift in Sources */,
 				1CE187FA2CADC673005FE9D8 /* ContentView.swift in Sources */,
 				1CE187F82CADC673005FE9D8 /* Learning_SwiftUIApp.swift in Sources */,
