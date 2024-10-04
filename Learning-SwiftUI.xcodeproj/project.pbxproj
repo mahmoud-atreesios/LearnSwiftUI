@@ -17,6 +17,7 @@
 		1CEA05B62CAE332D001A5256 /* GradientBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05B52CAE332D001A5256 /* GradientBootCamp.swift */; };
 		1CEA05B82CB0437A001A5256 /* SystemIconBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05B72CB0437A001A5256 /* SystemIconBootCamp.swift */; };
 		1CEA05BA2CB046C2001A5256 /* ImageBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05B92CB046C2001A5256 /* ImageBootCamp.swift */; };
+		1CEA05BC2CB06ED3001A5256 /* FrameBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05BB2CB06ED3001A5256 /* FrameBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		1CEA05B52CAE332D001A5256 /* GradientBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05B72CB0437A001A5256 /* SystemIconBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIconBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05B92CB046C2001A5256 /* ImageBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBootCamp.swift; sourceTree = "<group>"; };
+		1CEA05BB2CB06ED3001A5256 /* FrameBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				1CEA05B52CAE332D001A5256 /* GradientBootCamp.swift */,
 				1CEA05B72CB0437A001A5256 /* SystemIconBootCamp.swift */,
 				1CEA05B92CB046C2001A5256 /* ImageBootCamp.swift */,
+				1CEA05BB2CB06ED3001A5256 /* FrameBootCamp.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				1CEA05B62CAE332D001A5256 /* GradientBootCamp.swift in Sources */,
 				1CEA05BA2CB046C2001A5256 /* ImageBootCamp.swift in Sources */,
 				1CE188062CADC80A005FE9D8 /* TextBootCamp.swift in Sources */,
+				1CEA05BC2CB06ED3001A5256 /* FrameBootCamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
