@@ -15,6 +15,7 @@
 		1CE188082CAE283A005FE9D8 /* ShapesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE188072CAE283A005FE9D8 /* ShapesBootCamp.swift */; };
 		1CEA05B32CAE2E22001A5256 /* ColorsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05B22CAE2E22001A5256 /* ColorsBootCamp.swift */; };
 		1CEA05B62CAE332D001A5256 /* GradientBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05B52CAE332D001A5256 /* GradientBootCamp.swift */; };
+		1CEA05B82CB0437A001A5256 /* SystemIconBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05B72CB0437A001A5256 /* SystemIconBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1CE188072CAE283A005FE9D8 /* ShapesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05B22CAE2E22001A5256 /* ColorsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05B52CAE332D001A5256 /* GradientBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBootCamp.swift; sourceTree = "<group>"; };
+		1CEA05B72CB0437A001A5256 /* SystemIconBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIconBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				1CE188072CAE283A005FE9D8 /* ShapesBootCamp.swift */,
 				1CEA05B22CAE2E22001A5256 /* ColorsBootCamp.swift */,
 				1CEA05B52CAE332D001A5256 /* GradientBootCamp.swift */,
+				1CEA05B72CB0437A001A5256 /* SystemIconBootCamp.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				1CEA05B32CAE2E22001A5256 /* ColorsBootCamp.swift in Sources */,
 				1CE188082CAE283A005FE9D8 /* ShapesBootCamp.swift in Sources */,
+				1CEA05B82CB0437A001A5256 /* SystemIconBootCamp.swift in Sources */,
 				1CE187FA2CADC673005FE9D8 /* ContentView.swift in Sources */,
 				1CE187F82CADC673005FE9D8 /* Learning_SwiftUIApp.swift in Sources */,
 				1CEA05B62CAE332D001A5256 /* GradientBootCamp.swift in Sources */,
