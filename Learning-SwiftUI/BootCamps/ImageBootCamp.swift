@@ -14,6 +14,11 @@ struct ImageBootCamp: View {
             .scaledToFit()
             .clipShape(Circle())
             .frame(width: 300, height: 300)
+            .background(
+                Circle()
+                    .fill(Color.black)
+                    .frame(width: 285)
+            )
     }
 }
 
