@@ -20,6 +20,7 @@
 		1CEA05BC2CB06ED3001A5256 /* FrameBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05BB2CB06ED3001A5256 /* FrameBootCamp.swift */; };
 		1CEA05BE2CB071AE001A5256 /* BackgroundAndOverlayBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05BD2CB071AE001A5256 /* BackgroundAndOverlayBootCamp.swift */; };
 		1CEA05C02CB0D4B6001A5256 /* StacksBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05BF2CB0D4B6001A5256 /* StacksBootCamp.swift */; };
+		1CEA05C22CB5BA4C001A5256 /* PaddingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05C12CB5BA4C001A5256 /* PaddingBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		1CEA05BB2CB06ED3001A5256 /* FrameBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05BD2CB071AE001A5256 /* BackgroundAndOverlayBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05BF2CB0D4B6001A5256 /* StacksBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootCamp.swift; sourceTree = "<group>"; };
+		1CEA05C12CB5BA4C001A5256 /* PaddingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				1CEA05BB2CB06ED3001A5256 /* FrameBootCamp.swift */,
 				1CEA05BD2CB071AE001A5256 /* BackgroundAndOverlayBootCamp.swift */,
 				1CEA05BF2CB0D4B6001A5256 /* StacksBootCamp.swift */,
+				1CEA05C12CB5BA4C001A5256 /* PaddingBootCamp.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CEA05C22CB5BA4C001A5256 /* PaddingBootCamp.swift in Sources */,
 				1CEA05B32CAE2E22001A5256 /* ColorsBootCamp.swift in Sources */,
 				1CE188082CAE283A005FE9D8 /* ShapesBootCamp.swift in Sources */,
 				1CEA05B82CB0437A001A5256 /* SystemIconBootCamp.swift in Sources */,
