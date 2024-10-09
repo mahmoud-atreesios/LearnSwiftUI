@@ -21,6 +21,7 @@
 		1CEA05BE2CB071AE001A5256 /* BackgroundAndOverlayBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05BD2CB071AE001A5256 /* BackgroundAndOverlayBootCamp.swift */; };
 		1CEA05C02CB0D4B6001A5256 /* StacksBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05BF2CB0D4B6001A5256 /* StacksBootCamp.swift */; };
 		1CEA05C22CB5BA4C001A5256 /* PaddingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05C12CB5BA4C001A5256 /* PaddingBootCamp.swift */; };
+		1CEA05C42CB6DE5A001A5256 /* SpacerBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05C32CB6DE5A001A5256 /* SpacerBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		1CEA05BD2CB071AE001A5256 /* BackgroundAndOverlayBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05BF2CB0D4B6001A5256 /* StacksBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05C12CB5BA4C001A5256 /* PaddingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBootCamp.swift; sourceTree = "<group>"; };
+		1CEA05C32CB6DE5A001A5256 /* SpacerBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				1CEA05BD2CB071AE001A5256 /* BackgroundAndOverlayBootCamp.swift */,
 				1CEA05BF2CB0D4B6001A5256 /* StacksBootCamp.swift */,
 				1CEA05C12CB5BA4C001A5256 /* PaddingBootCamp.swift */,
+				1CEA05C32CB6DE5A001A5256 /* SpacerBootCamp.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				1CEA05B82CB0437A001A5256 /* SystemIconBootCamp.swift in Sources */,
 				1CEA05BE2CB071AE001A5256 /* BackgroundAndOverlayBootCamp.swift in Sources */,
 				1CE187FA2CADC673005FE9D8 /* ContentView.swift in Sources */,
+				1CEA05C42CB6DE5A001A5256 /* SpacerBootCamp.swift in Sources */,
 				1CE187F82CADC673005FE9D8 /* Learning_SwiftUIApp.swift in Sources */,
 				1CEA05B62CAE332D001A5256 /* GradientBootCamp.swift in Sources */,
 				1CEA05BA2CB046C2001A5256 /* ImageBootCamp.swift in Sources */,
