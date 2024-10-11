@@ -24,6 +24,7 @@
 		1CEA05C42CB6DE5A001A5256 /* SpacerBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05C32CB6DE5A001A5256 /* SpacerBootCamp.swift */; };
 		1CEA05C62CB8AD61001A5256 /* ForEachBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05C52CB8AD61001A5256 /* ForEachBootCamp.swift */; };
 		1CEA05C82CB8B664001A5256 /* ScrollViewBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05C72CB8B664001A5256 /* ScrollViewBootCamp.swift */; };
+		1CEA05CA2CB9DB8F001A5256 /* GridBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05C92CB9DB8F001A5256 /* GridBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		1CEA05C32CB6DE5A001A5256 /* SpacerBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05C52CB8AD61001A5256 /* ForEachBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05C72CB8B664001A5256 /* ScrollViewBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootCamp.swift; sourceTree = "<group>"; };
+		1CEA05C92CB9DB8F001A5256 /* GridBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				1CEA05C32CB6DE5A001A5256 /* SpacerBootCamp.swift */,
 				1CEA05C52CB8AD61001A5256 /* ForEachBootCamp.swift */,
 				1CEA05C72CB8B664001A5256 /* ScrollViewBootCamp.swift */,
+				1CEA05C92CB9DB8F001A5256 /* GridBootCamp.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				1CEA05BE2CB071AE001A5256 /* BackgroundAndOverlayBootCamp.swift in Sources */,
 				1CE187FA2CADC673005FE9D8 /* ContentView.swift in Sources */,
 				1CEA05C42CB6DE5A001A5256 /* SpacerBootCamp.swift in Sources */,
+				1CEA05CA2CB9DB8F001A5256 /* GridBootCamp.swift in Sources */,
 				1CE187F82CADC673005FE9D8 /* Learning_SwiftUIApp.swift in Sources */,
 				1CEA05B62CAE332D001A5256 /* GradientBootCamp.swift in Sources */,
 				1CEA05BA2CB046C2001A5256 /* ImageBootCamp.swift in Sources */,
