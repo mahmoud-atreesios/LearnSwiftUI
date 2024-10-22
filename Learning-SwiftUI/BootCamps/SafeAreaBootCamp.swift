@@ -25,7 +25,7 @@ struct SafeAreaBootCamp: View {
         }
         .background(
             Color.yellow
-//                .ignoresSafeArea(edges: .all)
+//                .ignoresSafeArea(edges: .all) 
         )
     }
 }
