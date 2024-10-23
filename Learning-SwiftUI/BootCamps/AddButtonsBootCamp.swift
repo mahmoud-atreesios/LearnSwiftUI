@@ -9,39 +9,45 @@ import SwiftUI
 
 struct AddButtonsBootCamp: View {
     
-    @State var title = "Button pressed"
+    @State var title = "Likes 0"
     @State var image = "heart"
     @State var toggle = false
     
     var body: some View {
         VStack {
-            Text(self.title)
-            
             Button {
-                self.title = "Button 1# pressed"
-                
-                if toggle == false {
-                    self.image = "heart.fill"
-                    self.toggle = true
-                }else{
-                    self.image = "heart"
-                    self.toggle = false
-                }
-                
-                
+                likeButtonPressed()
             } label: {
-                Circle()
-                    .fill(.white)
-                    .frame(width: 60, height: 60)
-                    .shadow(radius: 10)
-                    .overlay {
-                        Image(systemName: image)
-                            .foregroundColor(.red)
-                            .font(.title)
-                    }
+                imageButtonView
             }
+            Text(self.title)
         }
     }
+    
+    var imageButtonView: some View{
+        Circle()
+            .fill(.white)
+            .frame(width: 60, height: 60)
+            .shadow(radius: 10)
+            .overlay {
+                Image(systemName: image)
+                    .foregroundColor(.red)
+                    .font(.title)
+            }
+    }
+    
+    func likeButtonPressed(){
+        if toggle == false {
+            self.title = "Likes 1"
+            self.image = "heart.fill"
+            self.toggle = true
+        }else{
+            self.title = "Likes 0"
+            self.image = "heart"
+            self.toggle = false
+        }
+    }
+    
 }
 
 struct AddButtonsBootCamp_Previews: PreviewProvider {
