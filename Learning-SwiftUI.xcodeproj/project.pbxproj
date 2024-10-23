@@ -27,6 +27,7 @@
 		1CEA05CA2CB9DB8F001A5256 /* GridBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05C92CB9DB8F001A5256 /* GridBootCamp.swift */; };
 		1CEA05CC2CC7F9A3001A5256 /* SafeAreaBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05CB2CC7F9A3001A5256 /* SafeAreaBootCamp.swift */; };
 		1CEA05CE2CC805FD001A5256 /* AddButtonsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05CD2CC805FD001A5256 /* AddButtonsBootCamp.swift */; };
+		1CEA05D02CC95125001A5256 /* AnimationBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05CF2CC95125001A5256 /* AnimationBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		1CEA05C92CB9DB8F001A5256 /* GridBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05CB2CC7F9A3001A5256 /* SafeAreaBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05CD2CC805FD001A5256 /* AddButtonsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonsBootCamp.swift; sourceTree = "<group>"; };
+		1CEA05CF2CC95125001A5256 /* AnimationBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				1CEA05C92CB9DB8F001A5256 /* GridBootCamp.swift */,
 				1CEA05CB2CC7F9A3001A5256 /* SafeAreaBootCamp.swift */,
 				1CEA05CD2CC805FD001A5256 /* AddButtonsBootCamp.swift */,
+				1CEA05CF2CC95125001A5256 /* AnimationBootCamp.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				1CEA05C62CB8AD61001A5256 /* ForEachBootCamp.swift in Sources */,
 				1CE188062CADC80A005FE9D8 /* TextBootCamp.swift in Sources */,
 				1CEA05CC2CC7F9A3001A5256 /* SafeAreaBootCamp.swift in Sources */,
+				1CEA05D02CC95125001A5256 /* AnimationBootCamp.swift in Sources */,
 				1CEA05BC2CB06ED3001A5256 /* FrameBootCamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

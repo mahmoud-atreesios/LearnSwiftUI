@@ -40,11 +40,11 @@ struct AddButtonsBootCamp: View {
         if toggle == false {
             self.title = "Likes 1"
             self.image = "heart.fill"
-            self.toggle = true
+            self.toggle.toggle()
         }else{
             self.title = "Likes 0"
             self.image = "heart"
-            self.toggle = false
+            self.toggle.toggle()
         }
     }
     
