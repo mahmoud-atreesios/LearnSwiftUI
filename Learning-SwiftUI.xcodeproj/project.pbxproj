@@ -28,6 +28,7 @@
 		1CEA05CC2CC7F9A3001A5256 /* SafeAreaBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05CB2CC7F9A3001A5256 /* SafeAreaBootCamp.swift */; };
 		1CEA05CE2CC805FD001A5256 /* AddButtonsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05CD2CC805FD001A5256 /* AddButtonsBootCamp.swift */; };
 		1CEA05D02CC95125001A5256 /* AnimationBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05CF2CC95125001A5256 /* AnimationBootCamp.swift */; };
+		1CEA05D22CCA6F0B001A5256 /* AnimationTimingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05D12CCA6F0B001A5256 /* AnimationTimingBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		1CEA05CB2CC7F9A3001A5256 /* SafeAreaBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05CD2CC805FD001A5256 /* AddButtonsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonsBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05CF2CC95125001A5256 /* AnimationBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBootCamp.swift; sourceTree = "<group>"; };
+		1CEA05D12CCA6F0B001A5256 /* AnimationTimingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				1CEA05CB2CC7F9A3001A5256 /* SafeAreaBootCamp.swift */,
 				1CEA05CD2CC805FD001A5256 /* AddButtonsBootCamp.swift */,
 				1CEA05CF2CC95125001A5256 /* AnimationBootCamp.swift */,
+				1CEA05D12CCA6F0B001A5256 /* AnimationTimingBootCamp.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CEA05C22CB5BA4C001A5256 /* PaddingBootCamp.swift in Sources */,
+				1CEA05D22CCA6F0B001A5256 /* AnimationTimingBootCamp.swift in Sources */,
 				1CEA05B32CAE2E22001A5256 /* ColorsBootCamp.swift in Sources */,
 				1CEA05CE2CC805FD001A5256 /* AddButtonsBootCamp.swift in Sources */,
 				1CEA05C82CB8B664001A5256 /* ScrollViewBootCamp.swift in Sources */,
