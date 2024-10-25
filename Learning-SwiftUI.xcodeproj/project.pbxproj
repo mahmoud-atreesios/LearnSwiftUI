@@ -29,6 +29,7 @@
 		1CEA05CE2CC805FD001A5256 /* AddButtonsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05CD2CC805FD001A5256 /* AddButtonsBootCamp.swift */; };
 		1CEA05D02CC95125001A5256 /* AnimationBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05CF2CC95125001A5256 /* AnimationBootCamp.swift */; };
 		1CEA05D22CCA6F0B001A5256 /* AnimationTimingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05D12CCA6F0B001A5256 /* AnimationTimingBootCamp.swift */; };
+		1CEA05D42CCBCCE9001A5256 /* SheetsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05D32CCBCCE9001A5256 /* SheetsBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		1CEA05CD2CC805FD001A5256 /* AddButtonsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonsBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05CF2CC95125001A5256 /* AnimationBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05D12CCA6F0B001A5256 /* AnimationTimingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootCamp.swift; sourceTree = "<group>"; };
+		1CEA05D32CCBCCE9001A5256 /* SheetsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				1CEA05CD2CC805FD001A5256 /* AddButtonsBootCamp.swift */,
 				1CEA05CF2CC95125001A5256 /* AnimationBootCamp.swift */,
 				1CEA05D12CCA6F0B001A5256 /* AnimationTimingBootCamp.swift */,
+				1CEA05D32CCBCCE9001A5256 /* SheetsBootCamp.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				1CEA05B32CAE2E22001A5256 /* ColorsBootCamp.swift in Sources */,
 				1CEA05CE2CC805FD001A5256 /* AddButtonsBootCamp.swift in Sources */,
 				1CEA05C82CB8B664001A5256 /* ScrollViewBootCamp.swift in Sources */,
+				1CEA05D42CCBCCE9001A5256 /* SheetsBootCamp.swift in Sources */,
 				1CE188082CAE283A005FE9D8 /* ShapesBootCamp.swift in Sources */,
 				1CEA05B82CB0437A001A5256 /* SystemIconBootCamp.swift in Sources */,
 				1CEA05BE2CB071AE001A5256 /* BackgroundAndOverlayBootCamp.swift in Sources */,

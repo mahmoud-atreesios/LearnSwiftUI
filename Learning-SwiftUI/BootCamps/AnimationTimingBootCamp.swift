@@ -19,7 +19,7 @@ struct AnimationTimingBootCamp: View {
             }
             RoundedRectangle(cornerRadius: 20)
                 .frame(width: isAnimated ? 350 : 50, height: 80)
-                .animation(.spring(response: 0.5, dampingFraction: 0.7, blendDuration: 1.0))
+                .animation(.spring(response: 0.5, dampingFraction: 0.6, blendDuration: 1.0))
 //            RoundedRectangle(cornerRadius: 20)
 //                .frame(width: isAnimated ? 350 : 50, height: 80)
 //                .animation(.default)
