@@ -30,6 +30,7 @@
 		1CEA05D02CC95125001A5256 /* AnimationBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05CF2CC95125001A5256 /* AnimationBootCamp.swift */; };
 		1CEA05D22CCA6F0B001A5256 /* AnimationTimingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05D12CCA6F0B001A5256 /* AnimationTimingBootCamp.swift */; };
 		1CEA05D42CCBCCE9001A5256 /* SheetsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05D32CCBCCE9001A5256 /* SheetsBootCamp.swift */; };
+		1CEA05D62CCD1ACA001A5256 /* SideMenuTutorialByMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05D52CCD1ACA001A5256 /* SideMenuTutorialByMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		1CEA05CF2CC95125001A5256 /* AnimationBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05D12CCA6F0B001A5256 /* AnimationTimingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05D32CCBCCE9001A5256 /* SheetsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootCamp.swift; sourceTree = "<group>"; };
+		1CEA05D52CCD1ACA001A5256 /* SideMenuTutorialByMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTutorialByMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				1CEA05CF2CC95125001A5256 /* AnimationBootCamp.swift */,
 				1CEA05D12CCA6F0B001A5256 /* AnimationTimingBootCamp.swift */,
 				1CEA05D32CCBCCE9001A5256 /* SheetsBootCamp.swift */,
+				1CEA05D52CCD1ACA001A5256 /* SideMenuTutorialByMe.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CEA05D62CCD1ACA001A5256 /* SideMenuTutorialByMe.swift in Sources */,
 				1CEA05C22CB5BA4C001A5256 /* PaddingBootCamp.swift in Sources */,
 				1CEA05D22CCA6F0B001A5256 /* AnimationTimingBootCamp.swift in Sources */,
 				1CEA05B32CAE2E22001A5256 /* ColorsBootCamp.swift in Sources */,

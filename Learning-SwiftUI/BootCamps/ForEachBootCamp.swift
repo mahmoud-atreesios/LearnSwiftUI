@@ -27,3 +27,32 @@ struct ForEachBootCamp_Previews: PreviewProvider {
         ForEachBootCamp()
     }
 }
+
+/*
+ ZStack(){
+     RoundedRectangle(cornerRadius: 10)
+         .frame(width: 270,height: .infinity)
+         .ignoresSafeArea(edges: .bottom)
+         .foregroundColor(.white)
+         .shadow(radius: 10)
+         .overlay(alignment: .topTrailing) {
+             Button {
+        //         showSideMenu = false
+             } label: {
+                 Image(systemName: "arrow.left")
+                     .foregroundColor(.gray)
+                     .font(.title2)
+                     .padding(25)
+                     .bold()
+             }
+         }
+         .overlay(alignment: .topLeading) {
+             Text("Side Menu")
+                 .font(.title)
+                 .bold()
+                 .padding()
+         }
+ }
+ */
+
+
