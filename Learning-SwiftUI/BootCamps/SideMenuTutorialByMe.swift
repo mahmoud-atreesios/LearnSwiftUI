@@ -35,12 +35,12 @@ struct SideMenuTutorialByMe: View {
                         .transition(.asymmetric(insertion: .move(edge: .leading), removal: .move(edge: .leading)))
                         .animation(.easeOut)
                         .offset(x:-10)
-                        .onAppear {
-                            showButton = false
-                        }
-                        .onDisappear {
-                            showButton = true
-                        }
+//                        .onAppear {
+//                            showButton = false
+//                        }
+//                        .onDisappear {
+//                            showButton = true
+//                        }
                 }
             }
         }
