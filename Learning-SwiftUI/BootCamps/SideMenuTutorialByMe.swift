@@ -31,7 +31,10 @@ struct SideMenuTutorialByMe: View {
                 }
                 
                 if showSideMenu{
-                    SideMenu(showSideMenu: $showSideMenu)
+                    SideMenu(showSideMenu: $showSideMenu,
+                             backIcon: "arrow.left",
+                             backgroundColor: Color.cyan,
+                             sideMenuTitleName: "My Title")
                         .transition(.asymmetric(insertion: .move(edge: .leading), removal: .move(edge: .leading)))
                         .animation(.easeOut)
                         .offset(x:-10)
@@ -50,19 +53,26 @@ struct SideMenuTutorialByMe: View {
 struct SideMenu: View {
     
     @Binding var showSideMenu: Bool
+    var backIcon: String
+    var backgroundColor: Color
+    var sideMenuTitleName: String
     
     var body: some View {
+        sideMenu
+    }
+    
+    var sideMenu: some View{
         ZStack(){
             RoundedRectangle(cornerRadius: 10)
                 .frame(width: 270,height: .infinity)
                 .ignoresSafeArea(edges: .bottom)
-                .foregroundColor(.white)
+                .foregroundColor(backgroundColor)
                 .shadow(radius: 10)
                 .overlay(alignment: .topTrailing) {
                     Button {
                         showSideMenu = false
                     } label: {
-                        Image(systemName: "arrow.left")
+                        Image(systemName: backIcon)
                             .foregroundColor(.gray)
                             .font(.title2)
                             .padding(25)
@@ -70,7 +80,7 @@ struct SideMenu: View {
                     }
                 }
                 .overlay(alignment: .topLeading) {
-                    Text("Side Menu")
+                    Text(sideMenuTitleName)
                         .font(.title)
                         .bold()
                         .padding()
@@ -105,3 +115,6 @@ struct SideMenuTutorialByMe_Previews: PreviewProvider {
         //SideMenu()
     }
 }
+
+
+//arrow.left

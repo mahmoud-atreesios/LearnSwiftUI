@@ -10,6 +10,9 @@ import SwiftUI
 struct ScrollViewBootCamp: View {
     
     @State var showSideMenu = false
+//    @State var backIcon: String = ""
+//    @State var backgroundColor: Color = .white
+//    @State var sideMenuTitleName: String = "NNNN"
     
     var body: some View {
         ZStack(alignment: .topLeading) {
@@ -62,7 +65,10 @@ struct ScrollViewBootCamp: View {
             }
             ZStack(alignment: .topLeading){
                 if showSideMenu{
-                    SideMenu(showSideMenu: $showSideMenu)
+                    SideMenu(showSideMenu: $showSideMenu,
+                             backIcon: "arrow.left",
+                             backgroundColor: Color.white,
+                             sideMenuTitleName: "FanZone")
                         .transition(.asymmetric(insertion: .move(edge: .leading), removal: .move(edge: .leading)))
                         .animation(.easeOut)
                         .offset(x:-10)

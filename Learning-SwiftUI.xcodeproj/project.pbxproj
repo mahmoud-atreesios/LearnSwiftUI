@@ -31,6 +31,8 @@
 		1CEA05D22CCA6F0B001A5256 /* AnimationTimingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05D12CCA6F0B001A5256 /* AnimationTimingBootCamp.swift */; };
 		1CEA05D42CCBCCE9001A5256 /* SheetsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05D32CCBCCE9001A5256 /* SheetsBootCamp.swift */; };
 		1CEA05D62CCD1ACA001A5256 /* SideMenuTutorialByMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05D52CCD1ACA001A5256 /* SideMenuTutorialByMe.swift */; };
+		1CEA05D82CCE9194001A5256 /* NavigationViewBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05D72CCE9194001A5256 /* NavigationViewBootCamp.swift */; };
+		1CEA05DA2CCFFEE5001A5256 /* ListBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05D92CCFFEE5001A5256 /* ListBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 		1CEA05D12CCA6F0B001A5256 /* AnimationTimingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05D32CCBCCE9001A5256 /* SheetsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05D52CCD1ACA001A5256 /* SideMenuTutorialByMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTutorialByMe.swift; sourceTree = "<group>"; };
+		1CEA05D72CCE9194001A5256 /* NavigationViewBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootCamp.swift; sourceTree = "<group>"; };
+		1CEA05D92CCFFEE5001A5256 /* ListBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 				1CEA05D12CCA6F0B001A5256 /* AnimationTimingBootCamp.swift */,
 				1CEA05D32CCBCCE9001A5256 /* SheetsBootCamp.swift */,
 				1CEA05D52CCD1ACA001A5256 /* SideMenuTutorialByMe.swift */,
+				1CEA05D72CCE9194001A5256 /* NavigationViewBootCamp.swift */,
+				1CEA05D92CCFFEE5001A5256 /* ListBootCamp.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -211,6 +217,7 @@
 				1CEA05B32CAE2E22001A5256 /* ColorsBootCamp.swift in Sources */,
 				1CEA05CE2CC805FD001A5256 /* AddButtonsBootCamp.swift in Sources */,
 				1CEA05C82CB8B664001A5256 /* ScrollViewBootCamp.swift in Sources */,
+				1CEA05DA2CCFFEE5001A5256 /* ListBootCamp.swift in Sources */,
 				1CEA05D42CCBCCE9001A5256 /* SheetsBootCamp.swift in Sources */,
 				1CE188082CAE283A005FE9D8 /* ShapesBootCamp.swift in Sources */,
 				1CEA05B82CB0437A001A5256 /* SystemIconBootCamp.swift in Sources */,
@@ -225,6 +232,7 @@
 				1CEA05C62CB8AD61001A5256 /* ForEachBootCamp.swift in Sources */,
 				1CE188062CADC80A005FE9D8 /* TextBootCamp.swift in Sources */,
 				1CEA05CC2CC7F9A3001A5256 /* SafeAreaBootCamp.swift in Sources */,
+				1CEA05D82CCE9194001A5256 /* NavigationViewBootCamp.swift in Sources */,
 				1CEA05D02CC95125001A5256 /* AnimationBootCamp.swift in Sources */,
 				1CEA05BC2CB06ED3001A5256 /* FrameBootCamp.swift in Sources */,
 			);
