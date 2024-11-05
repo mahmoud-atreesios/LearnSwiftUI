@@ -35,6 +35,7 @@
 		1CEA05DA2CCFFEE5001A5256 /* ListBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05D92CCFFEE5001A5256 /* ListBootCamp.swift */; };
 		1CEA05DC2CD3F0D2001A5256 /* AlertBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05DB2CD3F0D2001A5256 /* AlertBootCamp.swift */; };
 		1CEA05DE2CD516A8001A5256 /* ActionSheetBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05DD2CD516A8001A5256 /* ActionSheetBootCamp.swift */; };
+		1CEA05E02CD9441E001A5256 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05DF2CD9441E001A5256 /* OnboardingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		1CEA05D92CCFFEE5001A5256 /* ListBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05DB2CD3F0D2001A5256 /* AlertBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05DD2CD516A8001A5256 /* ActionSheetBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBootCamp.swift; sourceTree = "<group>"; };
+		1CEA05DF2CD9441E001A5256 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				1CEA05D92CCFFEE5001A5256 /* ListBootCamp.swift */,
 				1CEA05DB2CD3F0D2001A5256 /* AlertBootCamp.swift */,
 				1CEA05DD2CD516A8001A5256 /* ActionSheetBootCamp.swift */,
+				1CEA05DF2CD9441E001A5256 /* OnboardingScreen.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				1CEA05C62CB8AD61001A5256 /* ForEachBootCamp.swift in Sources */,
 				1CE188062CADC80A005FE9D8 /* TextBootCamp.swift in Sources */,
 				1CEA05CC2CC7F9A3001A5256 /* SafeAreaBootCamp.swift in Sources */,
+				1CEA05E02CD9441E001A5256 /* OnboardingScreen.swift in Sources */,
 				1CEA05D82CCE9194001A5256 /* NavigationViewBootCamp.swift in Sources */,
 				1CEA05D02CC95125001A5256 /* AnimationBootCamp.swift in Sources */,
 				1CEA05BC2CB06ED3001A5256 /* FrameBootCamp.swift in Sources */,

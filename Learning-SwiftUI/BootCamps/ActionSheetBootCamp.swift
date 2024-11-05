@@ -28,7 +28,7 @@ struct ActionSheetBootCamp: View {
     
     @State var bookmarkImageFill: String? = "bookmark.fill"
     @State var bookmarkImageUnfill: String? = "bookmark"
-    @State var bookmarkColor:Color? = Color.gray
+    @State var bookmarkColor:Color? = Color.yellow
     
     enum ActionSheetOptions{
         case isMyPost
