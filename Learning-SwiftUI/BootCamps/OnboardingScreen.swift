@@ -15,26 +15,45 @@ struct OnboardingScreen: View {
     @State var subTitles = ["We provide recipes based on what you have on hand","Start with ingredients that you have in kitchen","You can invite your partner to cook with you","Build a meal plan to meet nutrition needs"]
     
     
-    var body: some View {
-        ZStack {
+    //MARK: - FOLDED CODE SHORTCUT
+    /*
+     okay this is the practical work for the comments and documentation bootcamp this shoould be folded
+     and the shortcut to to the folded code is
+     
+     OPTION + COMMAND + LEFTARROW
+     
+     it can be applied on any two brackets not only on the comments
+     */
+    
+    
+    //MARK: - BODY OF MAIN SCREEN
+    var body: some View { // START: BODY
+        ZStack { // START: ZSTACK
             TabView(selection: $selectedPage) {
-                ForEach(0..<titles.count, id: \.self) { index in
-                    OnboardingScreenShape(selectedPage: $selectedPage,
-                                          image: images[index],
-                                          title: titles[index],
-                                          subTitle: subTitles[index],
-                                          pageIndex: index)
-                    .tag(index)
-                }
+                tabViewLogic
             }
             .tabViewStyle(.page)
             .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .never))
             .ignoresSafeArea()
             
+        } // END: ZSTACK
+    } // END: BODY
+    
+    //MARK: - TABVIEWLOGIC
+    /// TabView logic where it loops on the onboarding screen and take the paramters
+    private var tabViewLogic: some View{
+        ForEach(0..<titles.count, id: \.self) { index in
+            OnboardingScreenShape(selectedPage: $selectedPage,
+                                  image: images[index],
+                                  title: titles[index],
+                                  subTitle: subTitles[index],
+                                  pageIndex: index)
+            .tag(index)
         }
     }
 }
 
+//MARK: - UI OF EACH SCREEN
 struct OnboardingScreenShape: View {
     
     @Binding var selectedPage: Int
@@ -124,6 +143,3 @@ struct OnboardingScreen_Previews: PreviewProvider {
         //OnboardingScreenShape()
     }
 }
-
-
-

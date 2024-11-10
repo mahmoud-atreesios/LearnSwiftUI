@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CDE1B802CE11089008BB697 /* ModelBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */; };
 		1CE187F82CADC673005FE9D8 /* Learning_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE187F72CADC673005FE9D8 /* Learning_SwiftUIApp.swift */; };
 		1CE187FA2CADC673005FE9D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE187F92CADC673005FE9D8 /* ContentView.swift */; };
 		1CE187FC2CADC674005FE9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE187FB2CADC674005FE9D8 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootCamp.swift; sourceTree = "<group>"; };
 		1CE187F42CADC673005FE9D8 /* Learning-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE187F72CADC673005FE9D8 /* Learning_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_SwiftUIApp.swift; sourceTree = "<group>"; };
 		1CE187F92CADC673005FE9D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				1CEA05DB2CD3F0D2001A5256 /* AlertBootCamp.swift */,
 				1CEA05DD2CD516A8001A5256 /* ActionSheetBootCamp.swift */,
 				1CEA05DF2CD9441E001A5256 /* OnboardingScreen.swift */,
+				1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				1CEA05B62CAE332D001A5256 /* GradientBootCamp.swift in Sources */,
 				1CEA05BA2CB046C2001A5256 /* ImageBootCamp.swift in Sources */,
 				1CEA05C02CB0D4B6001A5256 /* StacksBootCamp.swift in Sources */,
+				1CDE1B802CE11089008BB697 /* ModelBootCamp.swift in Sources */,
 				1CEA05C62CB8AD61001A5256 /* ForEachBootCamp.swift in Sources */,
 				1CE188062CADC80A005FE9D8 /* TextBootCamp.swift in Sources */,
 				1CEA05CC2CC7F9A3001A5256 /* SafeAreaBootCamp.swift in Sources */,
