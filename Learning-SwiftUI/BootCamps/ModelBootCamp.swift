@@ -20,7 +20,7 @@ struct ModelBootCamp: View {
     
     @State var users = [
         UserModel(name: "Mahmoud", userName: "mahmoudatrees", followerCount: 78, image: "2", isVerfied: true),
-        UserModel(name: "Atrees", userName: "mahmoudatrees43", followerCount: 33, image: "Profile", isVerfied: true),
+        UserModel(name: "Atrees", userName: "mahmoudatrees43", followerCount: 33, image: "Profile", isVerfied:true),
         UserModel(name: "Ahmed", userName: "ahmed673", followerCount: 548, image: "FanImage", isVerfied: false),
         UserModel(name: "Ali", userName: "mahmoudat322", followerCount: 900, image: "2", isVerfied: true),
         UserModel(name: "Kareem", userName: "mahmo3324rees", followerCount: 27, image: "FanImage", isVerfied: false),
@@ -65,6 +65,7 @@ struct ModelBootCamp: View {
             }
         }
     }
+    
 }
 struct ModelBootCamp_Previews: PreviewProvider {
     static var previews: some View {

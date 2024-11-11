@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1CDE1B802CE11089008BB697 /* ModelBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */; };
+		1CDE1B832CE256EC008BB697 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B822CE256EC008BB697 /* MainScreen.swift */; };
+		1CDE1B852CE2571D008BB697 /* SeconddScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B842CE2571D008BB697 /* SeconddScreen.swift */; };
+		1CDE1B872CE2574D008BB697 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B862CE2574D008BB697 /* ViewModel.swift */; };
 		1CE187F82CADC673005FE9D8 /* Learning_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE187F72CADC673005FE9D8 /* Learning_SwiftUIApp.swift */; };
 		1CE187FA2CADC673005FE9D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE187F92CADC673005FE9D8 /* ContentView.swift */; };
 		1CE187FC2CADC674005FE9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE187FB2CADC674005FE9D8 /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootCamp.swift; sourceTree = "<group>"; };
+		1CDE1B822CE256EC008BB697 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		1CDE1B842CE2571D008BB697 /* SeconddScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeconddScreen.swift; sourceTree = "<group>"; };
+		1CDE1B862CE2574D008BB697 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		1CE187F42CADC673005FE9D8 /* Learning-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE187F72CADC673005FE9D8 /* Learning_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_SwiftUIApp.swift; sourceTree = "<group>"; };
 		1CE187F92CADC673005FE9D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +90,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CDE1B812CE256BC008BB697 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				1CDE1B862CE2574D008BB697 /* ViewModel.swift */,
+				1CDE1B822CE256EC008BB697 /* MainScreen.swift */,
+				1CDE1B842CE2571D008BB697 /* SeconddScreen.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
 		1CE187EB2CADC673005FE9D8 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +165,7 @@
 				1CEA05DD2CD516A8001A5256 /* ActionSheetBootCamp.swift */,
 				1CEA05DF2CD9441E001A5256 /* OnboardingScreen.swift */,
 				1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */,
+				1CDE1B812CE256BC008BB697 /* MVVM */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -229,6 +246,7 @@
 				1CEA05C22CB5BA4C001A5256 /* PaddingBootCamp.swift in Sources */,
 				1CEA05D22CCA6F0B001A5256 /* AnimationTimingBootCamp.swift in Sources */,
 				1CEA05B32CAE2E22001A5256 /* ColorsBootCamp.swift in Sources */,
+				1CDE1B832CE256EC008BB697 /* MainScreen.swift in Sources */,
 				1CEA05CE2CC805FD001A5256 /* AddButtonsBootCamp.swift in Sources */,
 				1CEA05C82CB8B664001A5256 /* ScrollViewBootCamp.swift in Sources */,
 				1CEA05DA2CCFFEE5001A5256 /* ListBootCamp.swift in Sources */,
@@ -244,6 +262,7 @@
 				1CEA05BA2CB046C2001A5256 /* ImageBootCamp.swift in Sources */,
 				1CEA05C02CB0D4B6001A5256 /* StacksBootCamp.swift in Sources */,
 				1CDE1B802CE11089008BB697 /* ModelBootCamp.swift in Sources */,
+				1CDE1B872CE2574D008BB697 /* ViewModel.swift in Sources */,
 				1CEA05C62CB8AD61001A5256 /* ForEachBootCamp.swift in Sources */,
 				1CE188062CADC80A005FE9D8 /* TextBootCamp.swift in Sources */,
 				1CEA05CC2CC7F9A3001A5256 /* SafeAreaBootCamp.swift in Sources */,
@@ -251,6 +270,7 @@
 				1CEA05D82CCE9194001A5256 /* NavigationViewBootCamp.swift in Sources */,
 				1CEA05D02CC95125001A5256 /* AnimationBootCamp.swift in Sources */,
 				1CEA05BC2CB06ED3001A5256 /* FrameBootCamp.swift in Sources */,
+				1CDE1B852CE2571D008BB697 /* SeconddScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
