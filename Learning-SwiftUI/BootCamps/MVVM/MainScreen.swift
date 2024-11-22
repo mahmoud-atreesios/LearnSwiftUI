@@ -18,8 +18,6 @@ struct MainScreen: View {
     @State private var selectedFruit: FruitsModel? = nil
     @State var showSecondScreen: Bool = false
     
-    
-    
     var body: some View {
         NavigationStack{
             List(content: {
