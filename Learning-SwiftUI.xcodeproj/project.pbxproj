@@ -19,6 +19,8 @@
 		1CE187FF2CADC674005FE9D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE187FE2CADC674005FE9D8 /* Preview Assets.xcassets */; };
 		1CE188062CADC80A005FE9D8 /* TextBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE188052CADC80A005FE9D8 /* TextBootCamp.swift */; };
 		1CE188082CAE283A005FE9D8 /* ShapesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE188072CAE283A005FE9D8 /* ShapesBootCamp.swift */; };
+		1CE8DBF02CF12DBD0006DF47 /* SomeNewModifiersBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE8DBEF2CF12DBD0006DF47 /* SomeNewModifiersBootCamp.swift */; };
+		1CE8DBF22CF137AD0006DF47 /* SwipeActionBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE8DBF12CF137AD0006DF47 /* SwipeActionBootCamp.swift */; };
 		1CEA05B32CAE2E22001A5256 /* ColorsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05B22CAE2E22001A5256 /* ColorsBootCamp.swift */; };
 		1CEA05B62CAE332D001A5256 /* GradientBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05B52CAE332D001A5256 /* GradientBootCamp.swift */; };
 		1CEA05B82CB0437A001A5256 /* SystemIconBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05B72CB0437A001A5256 /* SystemIconBootCamp.swift */; };
@@ -58,6 +60,8 @@
 		1CE187FE2CADC674005FE9D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1CE188052CADC80A005FE9D8 /* TextBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootCamp.swift; sourceTree = "<group>"; };
 		1CE188072CAE283A005FE9D8 /* ShapesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootCamp.swift; sourceTree = "<group>"; };
+		1CE8DBEF2CF12DBD0006DF47 /* SomeNewModifiersBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeNewModifiersBootCamp.swift; sourceTree = "<group>"; };
+		1CE8DBF12CF137AD0006DF47 /* SwipeActionBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05B22CAE2E22001A5256 /* ColorsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05B52CAE332D001A5256 /* GradientBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBootCamp.swift; sourceTree = "<group>"; };
 		1CEA05B72CB0437A001A5256 /* SystemIconBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIconBootCamp.swift; sourceTree = "<group>"; };
@@ -172,6 +176,8 @@
 				1CDE1B812CE256BC008BB697 /* MVVM */,
 				1CDE1B882CEE586F008BB697 /* AppStorageBootCamp.swift */,
 				1CDE1B8A2CEF94A9008BB697 /* AsyncImageBootCamp.swift */,
+				1CE8DBEF2CF12DBD0006DF47 /* SomeNewModifiersBootCamp.swift */,
+				1CE8DBF12CF137AD0006DF47 /* SwipeActionBootCamp.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 				1CE187F82CADC673005FE9D8 /* Learning_SwiftUIApp.swift in Sources */,
 				1CEA05B62CAE332D001A5256 /* GradientBootCamp.swift in Sources */,
 				1CEA05BA2CB046C2001A5256 /* ImageBootCamp.swift in Sources */,
+				1CE8DBF22CF137AD0006DF47 /* SwipeActionBootCamp.swift in Sources */,
 				1CEA05C02CB0D4B6001A5256 /* StacksBootCamp.swift in Sources */,
 				1CDE1B802CE11089008BB697 /* ModelBootCamp.swift in Sources */,
 				1CDE1B872CE2574D008BB697 /* ViewModel.swift in Sources */,
@@ -276,6 +283,7 @@
 				1CEA05E02CD9441E001A5256 /* OnboardingScreen.swift in Sources */,
 				1CEA05D82CCE9194001A5256 /* NavigationViewBootCamp.swift in Sources */,
 				1CEA05D02CC95125001A5256 /* AnimationBootCamp.swift in Sources */,
+				1CE8DBF02CF12DBD0006DF47 /* SomeNewModifiersBootCamp.swift in Sources */,
 				1CEA05BC2CB06ED3001A5256 /* FrameBootCamp.swift in Sources */,
 				1CDE1B892CEE586F008BB697 /* AppStorageBootCamp.swift in Sources */,
 				1CDE1B852CE2571D008BB697 /* SeconddScreen.swift in Sources */,

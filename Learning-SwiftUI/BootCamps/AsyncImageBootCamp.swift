@@ -10,7 +10,7 @@ import SwiftUI
 struct AsyncImageBootCamp: View {
     
     let url = URL(string: "https://apiv2.allsportsapi.com/logo/players/52515_cristiano-ronaldo.jpg")
-    let niceWebsiteForDownloadingSizedImages = URL(string: "https://picsum.photos/200")
+    let niceWebsiteForDownloadingSizedImages = URL(string: "https://picsum.photos/300")
     
     var body: some View {
                 VStack {
