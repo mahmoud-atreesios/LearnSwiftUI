@@ -28,6 +28,7 @@ struct GridBootCamp: View {
                     ForEach(0..<20) { index in
                         Rectangle()
                             .frame(height: 150)
+                            //.padding(.horizontal,5)
                     }
                 } header: {
                     Text("Section 1")

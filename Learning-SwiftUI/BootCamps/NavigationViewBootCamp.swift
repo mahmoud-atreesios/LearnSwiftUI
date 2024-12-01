@@ -23,7 +23,7 @@ struct NavigationViewBootCamp: View {
                                 .padding()
                                 .overlay {
                                     HStack {
-                                        Text("My Name is Mahmoud Mohamed Atrees,   I am an iOS software engineer.")
+                                        Text("My Name is Mahmoud Mohamed Atrees, I am an iOS software engineer.")
                                             .frame(width: .infinity, height: 100)
                                             .bold()
                                         Image(systemName: "arrowshape.forward.fill")
