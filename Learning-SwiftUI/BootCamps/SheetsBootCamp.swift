@@ -23,12 +23,12 @@ struct SheetsBootCamp: View {
             .background(Color.yellow)
             .cornerRadius(15)
             .foregroundColor(.white)
-//            .fullScreenCover(isPresented: $showSheet) {
-//                SecondScreen()
-//            }
-            .sheet(isPresented: $showSheet) {
+            .fullScreenCover(isPresented: $showSheet) {
                 SecondScreen()
             }
+//            .sheet(isPresented: $showSheet) {
+//                SecondScreen()
+//            }
         }
     }
 }

@@ -14,6 +14,7 @@
 		1C1EF8602CFD14F900CF436B /* DownloadJsonDataUsingCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EF85F2CFD14F900CF436B /* DownloadJsonDataUsingCombineViewModel.swift */; };
 		1C1EF8622CFD15E800CF436B /* MainScreenn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EF8612CFD15E800CF436B /* MainScreenn.swift */; };
 		1C1EF8652CFE7F5D00CF436B /* CustomLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EF8642CFE7F5D00CF436B /* CustomLoadingIndicator.swift */; };
+		1C1EF8682CFE9DB900CF436B /* PublishersAndSubsctibers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EF8672CFE9DB900CF436B /* PublishersAndSubsctibers.swift */; };
 		1CDE1B802CE11089008BB697 /* ModelBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */; };
 		1CDE1B832CE256EC008BB697 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B822CE256EC008BB697 /* MainScreen.swift */; };
 		1CDE1B852CE2571D008BB697 /* SeconddScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B842CE2571D008BB697 /* SeconddScreen.swift */; };
@@ -61,6 +62,7 @@
 		1C1EF85F2CFD14F900CF436B /* DownloadJsonDataUsingCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJsonDataUsingCombineViewModel.swift; sourceTree = "<group>"; };
 		1C1EF8612CFD15E800CF436B /* MainScreenn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenn.swift; sourceTree = "<group>"; };
 		1C1EF8642CFE7F5D00CF436B /* CustomLoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoadingIndicator.swift; sourceTree = "<group>"; };
+		1C1EF8672CFE9DB900CF436B /* PublishersAndSubsctibers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishersAndSubsctibers.swift; sourceTree = "<group>"; };
 		1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootCamp.swift; sourceTree = "<group>"; };
 		1CDE1B822CE256EC008BB697 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		1CDE1B842CE2571D008BB697 /* SeconddScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeconddScreen.swift; sourceTree = "<group>"; };
@@ -237,8 +239,9 @@
 				1C1EF8522CF645CC00CF436B /* NavigationStackBootCamp.swift */,
 				1C1EF8542CF78B7700CF436B /* MenuBootCamp.swift */,
 				1C1EF8562CF7DBD100CF436B /* ContentUnavailableBootCamp.swift */,
-				1C1EF8592CFD137300CF436B /* CombineFramework */,
 				1C1EF8662CFE7F6600CF436B /* Timers */,
+				1C1EF8592CFD137300CF436B /* CombineFramework */,
+				1C1EF8672CFE9DB900CF436B /* PublishersAndSubsctibers.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				1CEA05C22CB5BA4C001A5256 /* PaddingBootCamp.swift in Sources */,
 				1CEA05D22CCA6F0B001A5256 /* AnimationTimingBootCamp.swift in Sources */,
 				1CEA05B32CAE2E22001A5256 /* ColorsBootCamp.swift in Sources */,
+				1C1EF8682CFE9DB900CF436B /* PublishersAndSubsctibers.swift in Sources */,
 				1CDE1B832CE256EC008BB697 /* MainScreen.swift in Sources */,
 				1CEA05CE2CC805FD001A5256 /* AddButtonsBootCamp.swift in Sources */,
 				1CEA05C82CB8B664001A5256 /* ScrollViewBootCamp.swift in Sources */,
