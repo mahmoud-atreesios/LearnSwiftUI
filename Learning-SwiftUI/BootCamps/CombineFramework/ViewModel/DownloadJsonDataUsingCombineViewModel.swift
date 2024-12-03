@@ -45,8 +45,8 @@ class DownloadJsonDataUsingCombineViewModel: ObservableObject{
             .decode(type: [PostsModel].self, decoder: JSONDecoder())
             .sink { (completion) in
                 print("Completion: \(completion)")
-            } receiveValue: { returnedPosts in
-                self.posts = returnedPosts
+            } receiveValue: {[weak self] returnedPosts in
+                self?.posts = returnedPosts
             }
             .store(in: &cancellables)
         
