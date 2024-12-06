@@ -15,6 +15,8 @@
 		1C1EF8622CFD15E800CF436B /* MainScreenn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EF8612CFD15E800CF436B /* MainScreenn.swift */; };
 		1C1EF8652CFE7F5D00CF436B /* CustomLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EF8642CFE7F5D00CF436B /* CustomLoadingIndicator.swift */; };
 		1C1EF8682CFE9DB900CF436B /* PublishersAndSubsctibers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EF8672CFE9DB900CF436B /* PublishersAndSubsctibers.swift */; };
+		1C1EF86C2CFFD97500CF436B /* 3DAnimatedOnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EF86B2CFFD97500CF436B /* 3DAnimatedOnboardingScreen.swift */; };
+		1C802FF92D0209570088D9C1 /* ThreeDimentionOnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C802FF82D0209570088D9C1 /* ThreeDimentionOnboardingScreen.swift */; };
 		1CDE1B802CE11089008BB697 /* ModelBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */; };
 		1CDE1B832CE256EC008BB697 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B822CE256EC008BB697 /* MainScreen.swift */; };
 		1CDE1B852CE2571D008BB697 /* SeconddScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B842CE2571D008BB697 /* SeconddScreen.swift */; };
@@ -52,6 +54,7 @@
 		1CEA05DC2CD3F0D2001A5256 /* AlertBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05DB2CD3F0D2001A5256 /* AlertBootCamp.swift */; };
 		1CEA05DE2CD516A8001A5256 /* ActionSheetBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05DD2CD516A8001A5256 /* ActionSheetBootCamp.swift */; };
 		1CEA05E02CD9441E001A5256 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA05DF2CD9441E001A5256 /* OnboardingScreen.swift */; };
+		1CECA8662D0208A200AD73D4 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 1CECA8652D0208A200AD73D4 /* SplineRuntime */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +66,8 @@
 		1C1EF8612CFD15E800CF436B /* MainScreenn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenn.swift; sourceTree = "<group>"; };
 		1C1EF8642CFE7F5D00CF436B /* CustomLoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoadingIndicator.swift; sourceTree = "<group>"; };
 		1C1EF8672CFE9DB900CF436B /* PublishersAndSubsctibers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishersAndSubsctibers.swift; sourceTree = "<group>"; };
+		1C1EF86B2CFFD97500CF436B /* 3DAnimatedOnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DAnimatedOnboardingScreen.swift; sourceTree = "<group>"; };
+		1C802FF82D0209570088D9C1 /* ThreeDimentionOnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDimentionOnboardingScreen.swift; sourceTree = "<group>"; };
 		1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootCamp.swift; sourceTree = "<group>"; };
 		1CDE1B822CE256EC008BB697 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		1CDE1B842CE2571D008BB697 /* SeconddScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeconddScreen.swift; sourceTree = "<group>"; };
@@ -108,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CECA8662D0208A200AD73D4 /* SplineRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +248,8 @@
 				1C1EF8662CFE7F6600CF436B /* Timers */,
 				1C1EF8592CFD137300CF436B /* CombineFramework */,
 				1C1EF8672CFE9DB900CF436B /* PublishersAndSubsctibers.swift */,
+				1C1EF86B2CFFD97500CF436B /* 3DAnimatedOnboardingScreen.swift */,
+				1C802FF82D0209570088D9C1 /* ThreeDimentionOnboardingScreen.swift */,
 			);
 			path = BootCamps;
 			sourceTree = "<group>";
@@ -290,6 +298,9 @@
 				Base,
 			);
 			mainGroup = 1CE187EB2CADC673005FE9D8;
+			packageReferences = (
+				1CECA8642D0208A200AD73D4 /* XCRemoteSwiftPackageReference "spline-ios" */,
+			);
 			productRefGroup = 1CE187F52CADC673005FE9D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -316,9 +327,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C1EF86C2CFFD97500CF436B /* 3DAnimatedOnboardingScreen.swift in Sources */,
 				1CEA05DE2CD516A8001A5256 /* ActionSheetBootCamp.swift in Sources */,
 				1CEA05DC2CD3F0D2001A5256 /* AlertBootCamp.swift in Sources */,
 				1CEA05D62CCD1ACA001A5256 /* SideMenuTutorialByMe.swift in Sources */,
+				1C802FF92D0209570088D9C1 /* ThreeDimentionOnboardingScreen.swift in Sources */,
 				1C1EF8652CFE7F5D00CF436B /* CustomLoadingIndicator.swift in Sources */,
 				1C1EF8552CF78B7700CF436B /* MenuBootCamp.swift in Sources */,
 				1CEA05C22CB5BA4C001A5256 /* PaddingBootCamp.swift in Sources */,
@@ -559,6 +572,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1CECA8642D0208A200AD73D4 /* XCRemoteSwiftPackageReference "spline-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/splinetool/spline-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1CECA8652D0208A200AD73D4 /* SplineRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CECA8642D0208A200AD73D4 /* XCRemoteSwiftPackageReference "spline-ios" */;
+			productName = SplineRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1CE187EC2CADC673005FE9D8 /* Project object */;
 }

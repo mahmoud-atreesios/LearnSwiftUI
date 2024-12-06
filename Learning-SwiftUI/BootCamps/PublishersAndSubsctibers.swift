@@ -11,6 +11,7 @@ import Combine
 class TextFieldViewModel: ObservableObject{
     @Published var textFieldText = ""
     @Published var isValidTextField = false
+    @Published var showButton = false
     
     private var cancellables = Set<AnyCancellable>()
     
@@ -29,10 +30,10 @@ class TextFieldViewModel: ObservableObject{
             }
             .sink { [weak self] isValid in
                 self?.isValidTextField = isValid
+                self?.showButton = isValid
             }
             .store(in: &cancellables)
     }
-    
 }
 
 struct PublishersAndSubsctibers: View {
@@ -42,32 +43,47 @@ struct PublishersAndSubsctibers: View {
     var body: some View {
         
         ZStack {
-            TextField("Type Something...", text: $viewModel.textFieldText)
-                .padding(.leading)
-                .frame(height: 50)
-                .background(.white)
-                .cornerRadius(10, corners: .allCorners)
-                .shadow(radius: 10)
-            
-            HStack {
-                Spacer()
-                ZStack{
-                    Image(systemName: "xmark")
-                        .foregroundColor(.red)
-                        .bold()
-                        .font(.title2)
-                        .opacity(
-                            viewModel.textFieldText.count == 0 ? 0 :
-                            viewModel.isValidTextField ? 0 : 1
-                        )
-                    Image(systemName: "checkmark")
-                        .foregroundColor(.green)
-                        .bold()
-                        .font(.title2)
-                        .opacity(viewModel.isValidTextField ? 1 : 0)
+            VStack {
+                ZStack {
+                    TextField("Type Something...", text: $viewModel.textFieldText)
+                        .padding(.leading)
+                        .frame(height: 50)
+                        .background(.white)
+                        .cornerRadius(10, corners: .allCorners)
+                        .shadow(radius: 10)
+                    HStack {
+                        Spacer()
+                        ZStack{
+                            Image(systemName: "xmark")
+                                .foregroundColor(.red)
+                                .bold()
+                                .font(.title2)
+                                .opacity(
+                                    viewModel.textFieldText.count == 0 ? 0 :
+                                        viewModel.isValidTextField ? 0 : 1
+                                )
+                            Image(systemName: "checkmark")
+                                .foregroundColor(.green)
+                                .bold()
+                                .font(.title2)
+                                .opacity(viewModel.isValidTextField ? 1 : 0)
+                        }
+                    }
+                    .padding(.trailing)
                 }
+                
+                Button("submit".uppercased()) {
+                    print("hello world")
+                }
+                .foregroundColor(.white)
+                .frame(width: 300, height: 50)
+                .background(Color.blue)
+                .cornerRadius(10, corners: .allCorners)
+                .opacity(viewModel.showButton ? 1 : 0.5)
+                .bold()
+                .disabled(!viewModel.showButton)
+                .padding()
             }
-            .padding(.trailing)
         }
         .padding()
     }
