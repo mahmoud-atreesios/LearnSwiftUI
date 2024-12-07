@@ -16,6 +16,7 @@
 		1C1EF8652CFE7F5D00CF436B /* CustomLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EF8642CFE7F5D00CF436B /* CustomLoadingIndicator.swift */; };
 		1C1EF8682CFE9DB900CF436B /* PublishersAndSubsctibers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EF8672CFE9DB900CF436B /* PublishersAndSubsctibers.swift */; };
 		1C1EF86C2CFFD97500CF436B /* 3DAnimatedOnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EF86B2CFFD97500CF436B /* 3DAnimatedOnboardingScreen.swift */; };
+		1C5198A22D03F06600361FCA /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5198A12D03F06600361FCA /* Network.swift */; };
 		1C802FF92D0209570088D9C1 /* ThreeDimentionOnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C802FF82D0209570088D9C1 /* ThreeDimentionOnboardingScreen.swift */; };
 		1CDE1B802CE11089008BB697 /* ModelBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */; };
 		1CDE1B832CE256EC008BB697 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B822CE256EC008BB697 /* MainScreen.swift */; };
@@ -67,6 +68,7 @@
 		1C1EF8642CFE7F5D00CF436B /* CustomLoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoadingIndicator.swift; sourceTree = "<group>"; };
 		1C1EF8672CFE9DB900CF436B /* PublishersAndSubsctibers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishersAndSubsctibers.swift; sourceTree = "<group>"; };
 		1C1EF86B2CFFD97500CF436B /* 3DAnimatedOnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DAnimatedOnboardingScreen.swift; sourceTree = "<group>"; };
+		1C5198A12D03F06600361FCA /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		1C802FF82D0209570088D9C1 /* ThreeDimentionOnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDimentionOnboardingScreen.swift; sourceTree = "<group>"; };
 		1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootCamp.swift; sourceTree = "<group>"; };
 		1CDE1B822CE256EC008BB697 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				1C1EF85D2CFD13DD00CF436B /* PostsModel.swift */,
+				1C5198A12D03F06600361FCA /* Network.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				1CEA05BE2CB071AE001A5256 /* BackgroundAndOverlayBootCamp.swift in Sources */,
 				1CE187FA2CADC673005FE9D8 /* ContentView.swift in Sources */,
 				1CEA05C42CB6DE5A001A5256 /* SpacerBootCamp.swift in Sources */,
+				1C5198A22D03F06600361FCA /* Network.swift in Sources */,
 				1C1EF8622CFD15E800CF436B /* MainScreenn.swift in Sources */,
 				1CEA05CA2CB9DB8F001A5256 /* GridBootCamp.swift in Sources */,
 				1CE187F82CADC673005FE9D8 /* Learning_SwiftUIApp.swift in Sources */,
