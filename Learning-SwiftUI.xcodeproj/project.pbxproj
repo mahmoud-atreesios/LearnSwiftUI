@@ -17,6 +17,7 @@
 		1C1EF8682CFE9DB900CF436B /* PublishersAndSubsctibers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EF8672CFE9DB900CF436B /* PublishersAndSubsctibers.swift */; };
 		1C1EF86C2CFFD97500CF436B /* 3DAnimatedOnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EF86B2CFFD97500CF436B /* 3DAnimatedOnboardingScreen.swift */; };
 		1C5198A22D03F06600361FCA /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5198A12D03F06600361FCA /* Network.swift */; };
+		1C5198A42D0A73FD00361FCA /* RecipesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5198A32D0A73F000361FCA /* RecipesModel.swift */; };
 		1C802FF92D0209570088D9C1 /* ThreeDimentionOnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C802FF82D0209570088D9C1 /* ThreeDimentionOnboardingScreen.swift */; };
 		1CDE1B802CE11089008BB697 /* ModelBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */; };
 		1CDE1B832CE256EC008BB697 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE1B822CE256EC008BB697 /* MainScreen.swift */; };
@@ -69,6 +70,7 @@
 		1C1EF8672CFE9DB900CF436B /* PublishersAndSubsctibers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishersAndSubsctibers.swift; sourceTree = "<group>"; };
 		1C1EF86B2CFFD97500CF436B /* 3DAnimatedOnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DAnimatedOnboardingScreen.swift; sourceTree = "<group>"; };
 		1C5198A12D03F06600361FCA /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		1C5198A32D0A73F000361FCA /* RecipesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesModel.swift; sourceTree = "<group>"; };
 		1C802FF82D0209570088D9C1 /* ThreeDimentionOnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDimentionOnboardingScreen.swift; sourceTree = "<group>"; };
 		1CDE1B7F2CE11089008BB697 /* ModelBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootCamp.swift; sourceTree = "<group>"; };
 		1CDE1B822CE256EC008BB697 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		1C1EF85A2CFD139B00CF436B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1C5198A32D0A73F000361FCA /* RecipesModel.swift */,
 				1C1EF85D2CFD13DD00CF436B /* PostsModel.swift */,
 				1C5198A12D03F06600361FCA /* Network.swift */,
 			);
@@ -335,6 +338,7 @@
 				1CEA05DC2CD3F0D2001A5256 /* AlertBootCamp.swift in Sources */,
 				1CEA05D62CCD1ACA001A5256 /* SideMenuTutorialByMe.swift in Sources */,
 				1C802FF92D0209570088D9C1 /* ThreeDimentionOnboardingScreen.swift in Sources */,
+				1C5198A42D0A73FD00361FCA /* RecipesModel.swift in Sources */,
 				1C1EF8652CFE7F5D00CF436B /* CustomLoadingIndicator.swift in Sources */,
 				1C1EF8552CF78B7700CF436B /* MenuBootCamp.swift in Sources */,
 				1CEA05C22CB5BA4C001A5256 /* PaddingBootCamp.swift in Sources */,

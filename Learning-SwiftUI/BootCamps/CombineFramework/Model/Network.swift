@@ -10,14 +10,22 @@ import Combine
 
 struct Network{
     
-    func getData<T: Decodable>(url: String, model: T.Type) -> AnyPublisher<T, Error>{
+    func getData<T: Decodable>(url: String, model: T.Type, headers: [String:String]?) -> AnyPublisher<T, Error>{
         guard let url = URL(string: url)
         else {
             return Fail(error: URLError(.badURL))
                 .eraseToAnyPublisher()
         }
         
-        return URLSession.shared.dataTaskPublisher(for: url)
+        var request = URLRequest(url: url)
+        
+        if let headers = headers {
+            for (key, value) in headers {
+                request.addValue(value, forHTTPHeaderField: key)
+            }
+        }
+                
+        return URLSession.shared.dataTaskPublisher(for: request)
             .subscribe(on: DispatchQueue.global(qos: .background))
             .receive(on: DispatchQueue.main)
             .tryMap { data, response in
@@ -29,7 +37,5 @@ struct Network{
             }
             .decode(type: T.self, decoder: JSONDecoder())
             .eraseToAnyPublisher()
-        
     }
-    
 }

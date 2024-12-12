@@ -11,12 +11,18 @@ import Combine
 class DownloadJsonDataUsingCombineViewModel: ObservableObject{
     
     @Published var posts: [PostsModel] = []
+    @Published var recipes: RecipesModel?
     
     private let network = Network()
     private var cancellables = Set<AnyCancellable>()
+    private let headers = [
+        "x-rapidapi-key": "f35dbbce38msh6fb9fd99b90f5dap1a960fjsna68029951986",
+        "x-rapidapi-host": "tasty.p.rapidapi.com"
+    ]
     
     init() {
-        getPostsFromNetwork()
+        //getPostsFromNetwork()
+        getRecipesFromNetwork()
     }
     
     //MARK: - COMBINE STEPS TO FETCH DATA FROM API
@@ -33,7 +39,7 @@ class DownloadJsonDataUsingCombineViewModel: ObservableObject{
     //MARK: - GET THE DATA USING THE COMBINE NETWORK LAYER
     // getting the data which is the posts in our example using the network layer we made with combine along with MVVM arichtecture design pattern
     func getPostsFromNetwork(){
-        network.getData(url: "https://jsonplaceholder.typicode.com/posts", model: [PostsModel].self)
+        network.getData(url: "https://jsonplaceholder.typicode.com/posts", model: [PostsModel].self, headers: nil)
             .sink(receiveCompletion: { completion in
                 switch completion {
                 case .finished:
@@ -45,6 +51,24 @@ class DownloadJsonDataUsingCombineViewModel: ObservableObject{
                 self?.posts = returnedData
             })
             .store(in: &cancellables)
+    }
+    
+    //MARK: - GETINNG RECIPES DATA
+    func getRecipesFromNetwork(){
+        network.getData(url: "https://tasty.p.rapidapi.com/recipes/list?from=0&size=20&tags=under_30_minutes", model: RecipesModel.self, headers: headers)
+            .sink(receiveCompletion: { completion in
+                switch completion {
+                case .finished:
+                    print("Request succeeded")
+                case .failure(let error):
+                    print("Error: \(error)")
+                }
+            }, receiveValue: { [weak self] returnedRecipes in
+                self?.recipes = returnedRecipes
+                print("dattatatatatatat \(String(describing: returnedRecipes))")
+            })
+            .store(in: &cancellables)
+
     }
     
     //MARK: - GET POSTS WITHOUT USING THE NETWORK LAYER
