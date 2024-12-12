@@ -18,12 +18,12 @@ struct Result: Codable, Identifiable {
     var id: Int
     var originalVideoURL: String?
     var country: String?
-    var instructions: [Instruction]
+    var instructions: [Instruction]?
     var userRatings: UserRatings
     var name: String
     var createdAt: Int
     var nutrition: Nutrition
-    var description: String
+    var description: String?
     var thumbnailURL: String
     var totalTimeTier: TotalTimeTier?
     var language: String?
@@ -54,13 +54,6 @@ struct Result: Codable, Identifiable {
         case credits = "credits"
     }
 }
-
-//
-//enum Country: String, Codable {
-//    case us = "US"
-//    case zz = "ZZ"
-//}
-
 
 // MARK: - Credit
 struct Credit: Codable {

@@ -16,10 +16,35 @@ struct MainScreenn: View {
             List {
                 ForEach(recipesResult) { recipe in
                     VStack(alignment: .center) {
-                        Text(recipe.name)
-                            .font(.headline)
-                            .foregroundColor(.black)
-                            .padding(.vertical)
+                        HStack{
+                            Text(recipe.name)
+                                .font(.headline)
+                                .foregroundColor(.black)
+                                .padding(.vertical)
+                            
+                            // CALORIES
+                           /// Text(" 🔥 \(recipe.nutrition.calories) Kcal")
+                            
+                            // Time Cooking
+                            /// if let recipeTime = recipe.totalTimeTier?.displayTier{
+                            
+                            // Description Recipe
+                            /// if let recipeDescription = recipe.description{
+                            
+                            // Instruction Recipe
+                            /// if let recipesInstruction = recipe.instructions{
+                            
+                            // Rating Recipe
+                            /// Text("⭐️ \(recipe.userRatings)")
+                            
+                            Text("\(recipe.credits)")
+                                        .font(.caption)
+                                        .foregroundColor(.gray)
+                                        .bold()
+                                        .padding()
+                            
+                        }
+                        
                         AsyncImage(url: URL(string: recipe.thumbnailURL)) { recipeImage in
                             recipeImage
                                 .resizable()
